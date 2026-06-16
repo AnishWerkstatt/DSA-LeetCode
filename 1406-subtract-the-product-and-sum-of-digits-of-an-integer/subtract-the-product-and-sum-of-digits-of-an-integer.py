@@ -8,7 +8,7 @@ class Solution:
             prod *= r
             sm += r
             temp //= 10
-        ans = prod - sm
-        return ans
+       
+        return prod - sm
 
         
