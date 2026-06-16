@@ -6,10 +6,7 @@ class Solution:
             r = temp % 10
             temp //= 10
             rev = rev * 10 + r
-        if rev == x:
-            return True
-        else:
-            return False
+        return rev == x
 
 
 
